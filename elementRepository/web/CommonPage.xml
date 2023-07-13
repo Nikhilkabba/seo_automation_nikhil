@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Elements>
+	<Element name="genericXpath">
+		<param type="XPATH"
+			value="//*[contains(text(),'##value##')]" />
+	</Element>'
+	<Element name="continueButton">
+		<param type="XPATH"
+			value="//button[contains(text(),'Continue')]" />
+	</Element>'
+</Elements>

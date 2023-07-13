@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Payment Service Automation]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="acko.utilities.ExtentReporterNG"/>
+    <listener class-name="acko.utilities.CustomTestNGReporter"/>
+    <listener class-name="acko.utilities.TestListener"/>
+  </listeners>
+  <test name="01(failed)">
+    <classes>
+      <class name="testcases.TC_01">
+        <methods>
+          <include name="setup"/>
+          <include name="classPrerequisite"/>
+          <include name="TC_01_FreshCar" invocation-numbers="0"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- testcases.TC_01 -->
+    </classes>
+  </test> <!-- 01(failed) -->
+</suite> <!-- Failed suite [Payment Service Automation] -->

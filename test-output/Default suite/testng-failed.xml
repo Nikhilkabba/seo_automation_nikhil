@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="testcases.Flow_01_Insure_FreshCar">
+        <methods>
+          <include name="TC_01__Insured_An_Private_Fresh_car" invocation-numbers="0"/>
+          <include name="setup"/>
+          <include name="cleanUp"/>
+          <include name="classPrerequisite"/>
+        </methods>
+      </class> <!-- testcases.Flow_01_Insure_FreshCar -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

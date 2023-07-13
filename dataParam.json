@@ -1,0 +1,944 @@
+{
+  "lobwidgetmsgcar": ["Save upto 70%* on car insurance premium"],
+  "lobwidgetmsgbike": ["Bike insurance starting at ₹555"],
+  "lobwidgetmsghealth": ["ACKO Platinum Health Plan"],
+  "lobwidgetmsgtravel": ["Your visa to peace of mind.\nStarting at ₹10/day"],
+  "newcarhplink": ["https://www.ackodev.com/new-car/vehicle-details?lpSource=%2Fn&cardType=vehicle-details"],
+  "newbikehplink": ["https://www.ackodev.com/bike-journey/mmv?flow=new&src=lp"],
+  "newhplinkcar": ["https://www.ackodev.com/new-car/pincode?lpSource=%2Fn&cardType=pincode"],
+  "newhplinkbike": ["https://www.ackodev.com/lp/new-bike/bike/mmv?flow=new"],
+  "nodatavalidationcar": ["Enter your car number to continue"],
+  "nodatavalidationbike": ["Enter your bike number to continue"],
+  "wrongnumberdatavalidationcar": ["Ensure your car number is correct"],
+  "wrongnumberdatavalidationbike": ["Ensure your bike number is correct"],
+  "alreadyinsured": ["It seems you’re already insured with ACKO insurance"],
+  "expiringsoon": ["It seems your ACKO policy is expiring soon!"],
+  "loginlink": ["https://www.ackodev.com/login?next=/myaccount"],
+  "bikeseolink": ["https://www.ackodev.com/two-wheeler-insurance/"],
+  "carseolink": ["https://www.ackodev.com/car-insurance/"],
+  "freshcarlink": ["https://www.ackodev.com/car-journey/car-type?proposal_id="],
+  "freshbikelink": ["https://www.ackodev.com/bike-journey/plans?proposal_id="],
+  "viewpolicylink": ["https://www.ackodev.com/myaccount"],
+  "viewprofilelink": ["https://www.ackodev.com/profile"],
+  "healthlinkhp": ["https://www.ackodev.com/p/health/segment"],
+  "travellinkhp": ["https://acko.typeform.com/to/vlhrBNSL?typeform-source=www.ackodev.com"],
+  "bikeincar": ["It appears you've entered a bike registration number"],
+  "carlobwidgetlink": ["https://www.ackodev.com/car"],
+  "bikelobwidgetlink": ["https://www.ackodev.com/bike"],
+  "healthlobwidgetlink": ["https://www.ackodev.com/health"],
+  "travellobwidgetlink": ["https://www.ackodev.com/travel"],
+  "healthinstallapp": ["https://www.ackodev.com/gmc-user/enrollment/appstore"],
+  "activepolicybikelinks": [
+    {
+      "logoutlink": "https://www.ackodev.com/login?next=%2F"
+    },
+    {
+      "loginlink": "https://www.ackodev.com/myaccount"
+    }
+  ],
+
+  "officialpartnerdata": [
+    {
+      "visibleText": "Acko official partner for Kolkata night riders"
+    },
+    {
+      "visibleText": "Acko official partner for Gujarat Titans"
+    },
+    {
+      "visibleText": "Acko official partner for Mumbai Indians"
+    }
+  ],
+  "challansignuplink": ["https://www.ackodev.com/sign-up?next=%2Fmyaccount%3Fsource%3Dfree-sign-up"],
+
+  "validationTestDataBike": [
+    {
+      "validationmsg": ["Enter your bike number to continue"],
+      "value": ""
+    },
+    {
+      "validationmsg": ["You typed an invalid bike number!"],
+      "value": "1234AAA"
+    },
+    {
+      "validationmsg": ["You typed an invalid bike number!"],
+      "value": "A@@@!!!!AAA"
+    }
+  ],
+  "validationTestDataCar": [
+    {
+      "validationmsg": ["Enter your car number to continue"],
+      "value": ""
+    },
+    {
+      "validationmsg": ["Ensure your car number is correct"],
+      "value": "1234AAA"
+    },
+    {
+      "validationmsg": ["Ensure your car number is correct"],
+      "value": "A@@@!!!!AAA"
+    }
+  ],
+  "productcategoriesdata": [
+    "GET COVERED FOR",
+    "Car",
+    "Bike",
+    "Health",
+    "Travel",
+    "Corporate coverage",
+    "Electronics"
+  ],
+  "Carjourneydata": [
+    {
+      "widgetMsg": ["It seems you’re already insured with ACKO insurance"],
+      "vehicleNumber": "HR26CP7005",
+      "description": "Active policy"
+    },
+    {
+      "widgetMsg": ["It seems you’re already insured with ACKO insurance"],
+      "vehicleNumber": "HR26CK2404",
+      "description": "Active policy of Bike in car"
+    }
+  ],
+  "Bikejourneydata": [
+    {
+      "widgetMsg": ["It seems you’re already insured with ACKO insurance"],
+      "vehicleNumber": "HR26CK2404",
+      "description": "Active policy"
+    },
+    {
+      "widgetMsg": ["It seems you’re already insured with ACKO insurance"],
+      "vehicleNumber": "HR26CP7005",
+      "description": "Active policy of Car in bike"
+    }
+  ],
+  "Carjourneydatalogin": [
+    {
+      "widgetMsg": ["It seems you’re already insured with ACKO insurance"],
+      "vehicleNumber": "HR26CP7005",
+      "description": "Active policy"
+    },
+    {
+      "widgetMsg": ["It seems you’re already insured with ACKO insurance"],
+      "vehicleNumber": "HR26CK2404",
+      "description": "Active policy of Bike in car"
+    }
+  ],
+  "Bikejourneydatalogin": [
+    {
+      "widgetMsg": ["It seems you’re already insured with ACKO insurance"],
+      "vehicleNumber": "HR26CK2404",
+      "description": "Active policy"
+    },
+    {
+      "widgetMsg": ["It seems you’re already insured with ACKO insurance"],
+      "vehicleNumber": "HR26CP7005",
+      "description": "Active policy of Car in Bike"
+    }
+  ],
+  "footerlinksdata": [
+    {
+      "footerHeading": "Products",
+      "links": ["https://www.ackodev.com/car-insurance/","https://www.ackodev.com/third-party-car-insurance/","https://www.ackodev.com/two-wheeler-insurance/","https://www.ackodev.com/third-party-bike-insurance/","https://www.ackodev.com/motor-insurance/","https://www.ackodev.com/health-insurance/","https://www.ackodev.com/arogya-sanjeevani-health-insurance/","https://www.ackodev.com/group-health-insurance/"]
+    },
+    {
+      "footerHeading": "Company",
+      "links": ["https://www.ackodev.com/about-us/","https://www.ackodev.com/board-of-directors/","https://acko.skillate.com/","https://www.ackodev.com/media-kit/","https://www.ackodev.com/resources/","https://www.ackodev.com/articles/","https://www.ackodev.com/ackology/","https://www.ackodev.com/partnerships","https://www.ackodev.com/sitemap/"]
+    },
+    {
+      "footerHeading": "Legal",
+      "links": [
+        "https://www.ackodev.com/wp-content/uploads/2018/02/Whistleblower-policy.pdf",
+        "https://www.ackodev.com/public-disclosure/",
+        "https://www.ackodev.com/financials-disclosures/",
+        "https://www.ackodev.com/privacy-policy/",
+        "https://www.ackodev.com/terms-and-conditions/",
+        "https://www.ackodev.com/wp-content/uploads/2018/07/policy-on-stewardship-code.pdf",
+        "https://www.ackodev.com/disclaimer/",
+        "https://www.ackodev.com/wp-content/uploads/2020/06/anti-fraud-policy.pdf",
+        "https://www.ackodev.com/wp-content/uploads/2020/10/acko-health-underwriting-philosophy.pdf"
+      ]
+    },
+    {
+      "footerHeading": "Support",
+      "links": [
+        "https://www.ackodev.com/contact-us/",
+        "https://www.ackodev.com/customer-service/",
+        "https://www.ackodev.com/cancellation-and-refund-policy/",
+        "https://www.ackodev.com/download/",
+        "https://www.ackodev.com/unclaimed-amount.pdf",
+        "https://irdai.gov.in/",
+        "https://www.ackodev.com/commercial-insurance/"
+      ]
+    },
+    {
+      "footerHeading": "Carinsurance",
+      "links": [
+        "https://www.ackodev.com/car-insurance/premium-calculator/",
+        "https://www.ackodev.com/car-insurance/compare/",
+        "https://www.ackodev.com/car-insurance/claims/",
+        "https://www.ackodev.com/what-is-idv-in-car-insurance/",
+        "https://www.ackodev.com/car-insurance/zero-depreciation/",
+        "https://www.ackodev.com/car-insurance/for-new-cars/",
+        "https://www.ackodev.com/car-insurance/electric-car-insurance/",
+        "https://www.ackodev.com/car-insurance/renew-expired-car-insurance/",
+        "https://www.ackodev.com/car-insurance/old-car-insurance/",
+        "https://www.ackodev.com/articles/car-insurance/",
+        "https://www.ackodev.com/guides/car-insurance/"
+      ]
+    },
+    {
+      "footerHeading": "Bikeinsurance",
+      "links": [
+        "https://www.ackodev.com/two-wheeler-insurance/premium-calculator/",
+        "https://www.ackodev.com/two-wheeler-insurance/compare/",
+        "https://www.ackodev.com/two-wheeler-insurance/claims/",
+        "https://www.ackodev.com/two-wheeler-insurance/idv-in-bike-insurance/",
+        "https://www.ackodev.com/two-wheeler-insurance/standalone-own-damage-insurance/",
+        "https://www.ackodev.com/two-wheeler-insurance/for-new-bikes/",
+        "https://www.ackodev.com/scooter-insurance/",
+        "https://www.ackodev.com/old-bike-insurance/",
+        "https://www.ackodev.com/two-wheeler-insurance/electric-bike-insurance/",
+        "https://www.ackodev.com/articles/two-wheeler-insurance/",
+        "https://www.ackodev.com/guides/two-wheeler-insurance/"
+      ]
+    },
+    {
+      "footerHeading": "Healthinsurance",
+      "links": [
+        "https://www.ackodev.com/health-insurance/premium-calculator/",
+        "https://www.ackodev.com/health-insurance/compare/",
+        "https://www.ackodev.com/health-insurance/claim/",
+        "https://www.ackodev.com/health-insurance/cashless/",
+        "https://www.ackodev.com/health-insurance/renewal/",
+        "https://www.ackodev.com/health-insurance/individual-health-insurance/",
+        "https://www.ackodev.com/health-insurance/covid-19-insurance/",
+        "https://www.ackodev.com/health-insurance/corona-kavach-policy/",
+        "https://www.ackodev.com/health-insurance/one-crore-sum-insured/",
+        "https://www.ackodev.com/articles/health-insurance/",
+        "https://www.ackodev.com/guides/health-insurance/"
+      ]
+    },
+    {
+      "footerHeading": "Explorecarinsurance",
+      "links": [
+        "https://www.ackodev.com/car-insurance/own-damage-insurance/",
+        "https://www.ackodev.com/car-insurance/for-suv/",
+        "https://www.ackodev.com/car-insurance/add-ons/",
+        "https://www.ackodev.com/car-insurance/car-theft-insurance-claim/",
+        "https://www.ackodev.com/garages/",
+        "https://www.ackodev.com/car-insurance/tyre-protection-insurance/",
+        "https://www.ackodev.com/commercial-vehicle-insurance/",
+        "https://www.ackodev.com/car-insurance/claim-settlement-ratio/",
+        "https://www.ackodev.com/car-insurance/bangalore/",
+        "https://www.ackodev.com/car-insurance/hyderabad/",
+        "https://www.ackodev.com/car-insurance/chennai/"
+      ]
+    },
+    {
+      "footerHeading": "Explorebikeinsurance",
+      "links": [
+        "https://www.ackodev.com/two-wheeler-insurance/claim-settlement-ratio/",
+        "https://www.ackodev.com/two-wheeler-insurance/third-party-vs-comprehensive/",
+        "https://www.ackodev.com/two-wheeler-insurance/no-claim-bonus-in-bike-insurance/",
+        "https://www.ackodev.com/two-wheeler-insurance/what-are-first-second-third-party/",
+        "https://www.ackodev.com/two-wheeler-insurance/personal-accident-cover-in-bike-insurance/",
+        "https://www.acko.com/two-wheeler-insurance/renew-expired-bike-insurance-online/",
+        "https://www.ackodev.com/two-wheeler-insurance/total-loss-bike-insurance-claim/",
+        "https://www.ackodev.com/two-wheeler-insurance/insurance-for-rental-bikes/",
+        "https://www.ackodev.com/duplicate-bike-insurance-copy-online-steps/"
+      ]
+    },
+    {
+      "footerHeading": "Explorehealthinsurance",
+      "links": [
+        "https://www.ackodev.com/health-insurance/waiting-period/",
+        "https://www.ackodev.com/health-insurance/reimbursement/",
+        "https://www.ackodev.com/health-insurance/for-women/",
+        "https://www.ackodev.com/health-insurance/for-parents/",
+        "https://www.ackodev.com/health-insurance/children-health-insurance/",
+        "https://www.ackodev.com/health-insurance/senior-citizens/",
+        "https://www.ackodev.com/health-insurance/family-health-insurance-plan/",
+        "https://www.ackodev.com/health-insurance/types-of-health-insurance/",
+        "https://www.ackodev.com/health-insurance/portability/",
+        "https://www.ackodev.com/health-insurance/preventive-health-check-up/"
+      ]
+    },
+    {
+      "footerHeading": "Exploregrouphealthinsurance",
+      "links": [
+        "https://www.ackodev.com/corporate-health-insurance/",
+        "https://www.ackodev.com/group-health-insurance/add-ons/",
+        "https://www.ackodev.com/group-health-insurance/maternity-cover/",
+        "https://www.ackodev.com/group-health-insurance/daily-hospital-cash-benefit/",
+        "https://www.ackodev.com/group-health-insurance/pre-existing-diseases/",
+        "https://www.ackodev.com/group-health-insurance/tax-benefits-for-employees-and-employers/",
+        "https://www.ackodev.com/group-health-insurance/corporate-health-insurance-when-changing-jobs/",
+        "https://www.ackodev.com/group-health-insurance/eligibility/",
+        "https://www.ackodev.com/group-health-insurance/how-are-group-health-insurance-premiums-calculated/",
+        "https://www.ackodev.com/group-health-insurance/for-startup/",
+        "https://www.ackodev.com/group-health-insurance/"
+      ]
+    },
+    {
+      "footerHeading": "Exploremore",
+      "links": [
+        "https://ackodrive.com/rto/",
+        "https://www.ackodev.com/traffic-rules/",
+        "https://www.ackodev.com/traffic-rules/how-to-get-puc-certificate/",
+        "https://ackodrive.com/rto/vehicle-fitness-certificate/",
+        "https://www.ackodev.com/rto/new-vehicle-registration-process/",
+        "https://www.ackodev.com/rto/how-to-check-vehicle-owner-details-by-number-plate/",
+        "https://www.ackodev.com/claim-settlement-ratio/",
+        "https://www.ackodev.com/articles/general-info/types-of-insurance/",
+        "https://www.ackodev.com/fuel/fuel-price",
+        "https://www.ackodev.com/fuel/petrol-price",
+        "https://www.ackodev.com/fuel/diesel-price",
+        "https://www.ackodev.com/pf/uan-universal-account-number/",
+        "https://www.ackodev.com/pf/uan-login/",
+        "https://www.ackodev.com/pf/epfo-employees-provident-fund-organisation/",
+        "https://www.ackodev.com/pf/epfo-member-portal-login/",
+        "https://www.ackodev.com/health-insurance/ayushman-bharat-yojana-scheme/"
+      ]
+    },
+    {
+      "footerHeading": "Exploretravelinsurance",
+      "links": [
+        "https://www.ackodev.com/travel-insurance/",
+        "https://www.ackodev.com/international-travel-insurance/",
+        "https://www.ackodev.com/international-travel-insurance/usa/",
+        "https://www.ackodev.com/international-travel-insurance/schengen/",
+        "https://www.ackodev.com/international-travel-insurance/dubai/",
+        "https://www.ackodev.com/international-travel-insurance/thailand/",
+        "https://www.ackodev.com/travel-insurance/is-travel-insurance-mandatory-for-international-travel/"
+      ]
+    },
+    {
+      "footerHeading": "Explorelifeinsurance",
+      "links": [
+        "https://www.ackodev.com/life-insurance/",
+        "https://www.ackodev.com/life-insurance/term-insurance/",
+        "https://www.ackodev.com/life-insurance/types-of-life-insurance-plan/",
+        "https://www.ackodev.com/life-insurance/life-insurance-riders/"
+      ]
+    }
+  ],
+
+  "Bikeheaderlinks": [
+    {
+      "visibleText": "Bike insurance",
+      "redirectionLink": "https://www.ackodev.com/two-wheeler-insurance/"
+    },
+    {
+      "visibleText": "Scooter insurance",
+      "redirectionLink": "https://www.ackodev.com/scooter-insurance/"
+    },
+    {
+      "visibleText": "Brand new bike insurance",
+      "redirectionLink": "https://www.ackodev.com/two-wheeler-insurance/for-new-bikes/"
+    },
+    {
+      "visibleText": "Comprehensive bike insurance",
+      "redirectionLink": "https://www.ackodev.com/two-wheeler-insurance/comprehensive-bike-insurance/"
+    },
+    {
+      "visibleText": "Third party bike insurance",
+      "redirectionLink": "https://www.ackodev.com/third-party-bike-insurance/"
+    },
+    {
+      "visibleText": "Electric bike insurance",
+      "redirectionLink": "https://www.ackodev.com/two-wheeler-insurance/electric-bike-insurance/"
+    },
+    {
+      "visibleText": "Used bike insurance",
+      "redirectionLink": "https://www.ackodev.com/old-bike-insurance/"
+    }
+  ],
+  "Travelheaderlinks": [
+    {
+      "visibleText": "Travel insurance",
+      "redirectionLink": "https://www.ackodev.com/travel-insurance/"
+    },
+    {
+      "visibleText": "International travel insurance",
+      "redirectionLink": "https://www.ackodev.com/international-travel-insurance/"
+    }
+  ],
+  "Corporateheaderlinks": [
+    {
+      "visibleText": "Group health insurance",
+      "redirectionLink": "https://www.ackodev.com/group-health-insurance/"
+    },
+    {
+      "visibleText": "Corporate health insurance",
+      "redirectionLink": "https://www.ackodev.com/corporate-health-insurance/"
+    }
+  ],
+  "Electronicsheaderlinks": [
+    {
+      "visibleText": "Mobile protection",
+      "redirectionLink": "https://www.ackodev.com/help/electronics/before-purchasing-a-plan"
+    },
+    {
+      "visibleText": "Appliance protection",
+      "redirectionLink": "https://www.ackodev.com/help/electronics/before-purchasing-a-plan?tab=appliances"
+    }
+  ],
+  "Healthheaderlinks": [
+    {
+      "visibleText": "Health insurance",
+      "redirectionLink": "https://www.ackodev.com/health-insurance/"
+    },
+    {
+      "visibleText": "Comprehensive health insurance",
+      "redirectionLink": "https://www.ackodev.com/health-insurance/comprehensive-health-insurance/"
+    },
+    {
+      "visibleText": "₹25L platinum health insurance",
+      "redirectionLink": "https://www.ackodev.com/health-insurance/25-lakhs-sum-insured/"
+    },
+    {
+      "visibleText": "₹50L platinum health insurance",
+      "redirectionLink": "https://www.ackodev.com/health-insurance/50-lakhs-sum-insured/"
+    },
+    {
+      "visibleText": "₹1Cr platinum health insurance",
+      "redirectionLink": "https://www.ackodev.com/health-insurance/one-crore-sum-insured/"
+    },
+    {
+      "visibleText": "Super top-up health insurance",
+      "redirectionLink": "https://www.ackodev.com/health-insurance/super-top-up-health-insurance/"
+    },
+    {
+      "visibleText": "₹1Cr super top-up health insurance",
+      "redirectionLink": "https://www.ackodev.com/health-insurance/1-crore-super-top-up-plan/"
+    },
+    {
+      "visibleText": "Arogya sanjeevani insurance",
+      "redirectionLink": "https://www.ackodev.com/arogya-sanjeevani-health-insurance/"
+    }
+  ],
+  "Carheaderlinks": [
+    {
+      "visibleText": "Car insurance",
+      "redirectionLink": "https://www.ackodev.com/car-insurance/"
+    },
+    {
+      "visibleText": "New car insurance",
+      "redirectionLink": "https://www.ackodev.com/car-insurance/for-new-cars/"
+    },
+    {
+      "visibleText": "Comprehensive car insurance",
+      "redirectionLink": "https://www.ackodev.com/car-insurance/comprehensive-car-insurance/"
+    },
+    {
+      "visibleText": "Third party car insurance",
+      "redirectionLink": "https://www.ackodev.com/third-party-car-insurance/"
+    },
+    {
+      "visibleText": "Own damage car insurance",
+      "redirectionLink": "https://www.ackodev.com/car-insurance/own-damage-insurance/"
+    },
+    {
+      "visibleText": "Zero depreciation car insurance",
+      "redirectionLink": "https://www.ackodev.com/car-insurance/zero-depreciation/"
+    },
+    {
+      "visibleText": "Electric car insurance",
+      "redirectionLink": "https://www.ackodev.com/car-insurance/electric-car-insurance/"
+    },
+    {
+      "visibleText": "Used car insurance",
+      "redirectionLink": "https://www.ackodev.com/car-insurance/old-car-insurance/"
+    },
+    {
+      "visibleText": "Commercial car insurance",
+      "redirectionLink": "https://www.ackodev.com/commercial-vehicle-insurance/"
+    }
+  ],
+  "Carlinksrenewals": [
+    {
+      "visibleText": "Login and renew policy",
+      "redirectionLink": "https://www.ackodev.com/login?next=%2Fmyaccount"
+    },
+    {
+      "visibleText": "Renew car insurance",
+      "redirectionLink": "https://www.ackodev.com/car-insurance/"
+    }
+  ],
+  "Bikelinksrenewals": [
+    {
+      "visibleText": "Login and renew policy",
+      "redirectionLink": "https://www.ackodev.com/login?next=%2Fmyaccount"
+    },
+    {
+      "visibleText": "Renew bike insurance",
+      "redirectionLink": "https://www.ackodev.com/two-wheeler-insurance/"
+    }
+  ],
+  "Healthlinksrenewals": [
+    {
+      "visibleText": "Login and renew policy",
+      "redirectionLink": "https://www.ackodev.com/login?next=%2Fmyaccount"
+    },
+    {
+      "visibleText": "Renew health insurance",
+      "redirectionLink": "https://www.ackodev.com/health-insurance/renewal/#how-to-renew"
+    }
+  ],
+  "Carlinksrenewalslogin": [
+    {
+      "visibleText": "Renew policy",
+      "redirectionLink": "https://www.ackodev.com/myaccount"
+    },
+    {
+      "visibleText": "Renew car insurance",
+      "redirectionLink": "https://www.ackodev.com/car-insurance/"
+    }
+  ],
+  "Bikelinksrenewalslogin": [
+    {
+      "visibleText": "Renew policy",
+      "redirectionLink": "https://www.ackodev.com/myaccount"
+    },
+    {
+      "visibleText": "Renew bike insurance",
+      "redirectionLink": "https://www.ackodev.com/two-wheeler-insurance/"
+    }
+  ],
+  "Healthlinksrenewalslogin": [
+    {
+      "visibleText": "Renew policy",
+      "redirectionLink": "https://www.ackodev.com/myaccount"
+    },
+    {
+      "visibleText": "Renew health insurance",
+      "redirectionLink": "https://www.ackodev.com/health-insurance/renewal/#how-to-renew"
+    }
+  ],
+  "Carlinksclaims": [
+    {
+      "visibleText": "File a new claim",
+      "redirectionLink": "https://www.ackodev.com/login?next=%2Fmyaccount"
+    },
+    {
+      "visibleText": "Track existing claim",
+      "redirectionLink": "https://www.ackodev.com/login?next=%2Fmyaccount"
+    },
+    {
+      "visibleText": "How ACKO claim works",
+      "redirectionLink": "https://www.ackodev.com/car-insurance/claims/"
+    }
+  ],
+  "Bikelinksclaims": [
+    {
+      "visibleText": "File a new claim",
+      "redirectionLink": "https://www.ackodev.com/login?next=%2Fmyaccount"
+    },
+    {
+      "visibleText": "Track existing claim",
+      "redirectionLink": "https://www.ackodev.com/login?next=%2Fmyaccount"
+    },
+    {
+      "visibleText": "How ACKO claim works",
+      "redirectionLink": "https://www.ackodev.com/two-wheeler-insurance/claims/"
+    }
+  ],
+  "Healthlinksclaims": [
+    {
+      "visibleText": "File a new claim",
+      "redirectionLink": "https://www.ackodev.com/login?next=%2Fmyaccount"
+    },
+    {
+      "visibleText": "Track existing claim",
+      "redirectionLink": "https://www.ackodev.com/login?next=%2Fmyaccount"
+    },
+    {
+      "visibleText": "How ACKO claim works",
+      "redirectionLink": "https://www.ackodev.com/health-insurance/claim/"
+    }
+  ],
+  "Loginbuttonlink": [
+    {
+      "visibleText": "Login",
+      "redirectionLink": "https://www.ackodev.com/login?next=%2Fmyaccount"
+    }
+  ],
+  "Signbuttonlink": [
+    {
+      "visibleText": "Sign Up",
+      "redirectionLink": "https://www.ackodev.com/sign-up?next=%2Fmyaccount%3Fsource%3Dfree-sign-up"
+    }
+  ],
+
+
+  "userprofiledata": [
+    {
+      "visibleText": "My policies",
+      "redirectionLink": "https://www.ackodev.com/myaccount"
+    },
+    {
+      "visibleText": "Logout"
+    }
+  ],
+  "resourcesdata": [
+    {
+      "visibleText": "Articles",
+      "redirectionLink": "https://www.ackodev.com/articles/"
+    },
+    {
+      "visibleText": "Guides",
+      "redirectionLink": "https://www.ackodev.com/guides/"
+    },
+    {
+      "visibleText": "Ebooks",
+      "redirectionLink": "https://www.ackodev.com/ebooks/"
+    }
+  ],
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  "carInsurancePagesLinks": [
+    "https://www.ackodev.com/car-insurance/",
+    "https://www.ackodev.com/third-party-car-insurance/",
+    "https://www.ackodev.com/commercial-vehicle-insurance/"
+  ],
+  "bikeInsurancePagesLinks": [
+    "https://www.ackodev.com/two-wheeler-insurance/",
+    "https://www.ackodev.com/third-party-bike-insurance/"
+  ],
+  "healthInsurancePagesLinks": [
+    "https://www.ackodev.com/health-insurance/",
+    "https://www.ackodev.com/arogya-sanjeevani-health-insurance/",
+    "https://www.ackodev.com/group-health-insurance/"
+  ],
+  "electronicsInsurancePagesLinks": [
+    "https://www.ackodev.com/help/electronics/before-purchasing-a-plan",
+    "https://www.ackodev.com/help/electronics/before-purchasing-a-plan?tab=appliances"
+  ],
+  "resourcePagesLinks": [
+    "https://www.ackodev.com/resources/",
+    "https://www.ackodev.com/guides/",
+    "https://www.ackodev.com/articles/"
+  ],
+  "loginPagesLinks": [
+    "https://www.ackodev.com/login?next=%2Fmyaccount",
+    "https://www.ackodev.com/login?next=%2Fmyaccount",
+    "https://www.ackodev.com/login?next=%2Fmyaccount"
+  ],
+  "helpPagesLinks": [
+    "https://www.ackodev.com/support/home/"
+  ],
+  "ackoLogoLinks": [
+    "https://www.ackodev.com/myaccount"
+  ],
+  "ackoLogoLinksout": [
+    "https://www.ackodev.com/?redirect=false"
+  ],
+  "ackoLogoLinksoutseo": [
+    "https://www.ackodev.com/?redirect=false"
+  ],
+  "myProfileTestData": [
+    {
+      "visibleText": "Nikhil Kabba"
+    },
+    {
+      "visibleText": "9818277494"
+    },
+    {
+      "visibleText": "Last visited on : "
+    },
+    {
+      "visibleText": "My policies",
+      "redirectionLink": "https://www.ackodev.com/myaccount"
+    },
+    {
+      "visibleText": "My profile",
+      "redirectionLink": "https://www.ackodev.com/profile"
+    }
+  ],
+  "myProfileTestData2": [
+    {
+      "visibleText": "Logout",
+      "redirectionLink": "https://www.ackodev.com/"
+    }
+  ],
+  "loginbuttondata": [
+    {
+      "visibleText": "Manage policy",
+      "redirectionLink": "https://www.ackodev.com/login?next=%2Fmyaccount"
+    },
+    {
+      "visibleText": "Raise a claim",
+      "redirectionLink": "https://www.ackodev.com/login?next=%2Fmyaccount"
+    },
+    {
+      "visibleText": "Renew policy",
+      "redirectionLink": "https://www.ackodev.com/login?next=%2Fmyaccount"
+    }
+  ],
+  "resorucesexploredata": [
+    {
+      "visibleText": "Explore more guides",
+      "redirectionLink": "https://www.ackodev.com/guides/"
+    },
+    {
+      "visibleText": "Explore more articles",
+      "redirectionLink": "https://www.ackodev.com/articles/"
+    },
+    {
+      "visibleText": "Explore more ebooks",
+      "redirectionLink": "https://www.ackodev.com/ebooks/"
+    }
+  ],
+  "explorelinks": [
+    "https://www.ackodev.com/guides/",
+    "https://www.ackodev.com/articles/",
+    "https://www.ackodev.com/ebooks/"
+  ],
+  "explorelinks2": [
+    "https://www.ackodev.com/resources/",
+    "https://www.ackodev.com/guides/",
+    "https://www.ackodev.com/articles/",
+    "https://www.ackodev.com/ebooks/"
+  ],
+  "signuplogindata": [
+    {
+      "visibleText": "Sign up",
+      "redirectionLink": "https://www.ackodev.com/sign-up?next=%2Fmyaccount%3Fsource%3Dfree-sign-up"
+    },
+    {
+      "visibleText": "Login",
+      "redirectionLink": "https://www.ackodev.com/login?next=%2Fmyaccount"
+    }
+  ],
+  "subscribenowlinks": ["https://www.ackodev.com/resources/#subscribe-now-modal","https://www.ackodev.com/resources/#subscribe-now-modal"],
+  "subscribenowdata": [
+    {
+      "visibleText": "Enter your full name"
+    },
+    {
+      "visibleText": "Enter your email address"
+    }
+  ],
+  "subscribenowdata2": [
+    {
+      "visibleText": "You typed an invalid email address!"
+    }
+  ],
+  "blogredirectiondata": [
+    {
+      "visibleText": "All",
+      "redirectionLink": "https://www.ackodev.com/articles/"
+    },
+    {
+      "visibleText": "Car Insurance",
+      "redirectionLink": "https://www.ackodev.com/articles/car-insurance/"
+    },
+    {
+      "visibleText": "Two-wheeler Insurance",
+      "redirectionLink": "https://www.ackodev.com/articles/two-wheeler-insurance/"
+    },
+    {
+      "visibleText": "Health Insurance",
+      "redirectionLink": "https://www.ackodev.com/articles/health-insurance/"
+    },
+    {
+      "visibleText": "Group Health Insurance",
+      "redirectionLink": "https://www.ackodev.com/articles/group-health-insurance/"
+    },
+    {
+      "visibleText": "Travel Insurance",
+      "redirectionLink": "https://www.ackodev.com/articles/travel-insurance/"
+    },
+    {
+      "visibleText": "General Insurance",
+      "redirectionLink": "https://www.ackodev.com/articles/general-insurance/"
+    },
+    {
+      "visibleText": "RTO",
+      "redirectionLink": "https://ackodrive.com/articles/rto/"
+    },
+    {
+      "visibleText": "Traffic Rules and Traffic Violations",
+      "redirectionLink": "https://ackodrive.com/articles/traffic-rules-violations/"
+    },
+    {
+      "visibleText": "Holidays",
+      "redirectionLink": "https://www.ackodev.com/articles/holidays/"
+    },
+    {
+      "visibleText": "Driving Licence",
+      "redirectionLink": "https://www.ackodev.com/articles/driving-licence/"
+    },
+    {
+      "visibleText": "Passport",
+      "redirectionLink": "https://www.ackodev.com/articles/passport/"
+    },
+    {
+      "visibleText": "Travel Tips",
+      "redirectionLink": "https://www.ackodev.com/articles/travel-tips/"
+    },
+    {
+      "visibleText": "Road Tax",
+      "redirectionLink": "https://www.ackodev.com/articles/road-tax/"
+    },
+    {
+      "visibleText": "Visa",
+      "redirectionLink": "https://www.ackodev.com/articles/visa/"
+    },
+    {
+      "visibleText": "Aadhaar",
+      "redirectionLink": "https://www.ackodev.com/articles/aadhaar/"
+    }
+  ],
+  "resorucesexploredata2": [
+    {
+      "visibleText": "RTO",
+      "redirectionLink": "https://ackodrive.com/articles/rto/"
+    },
+    {
+      "visibleText": "Traffic Rules and Traffic Violations",
+      "redirectionLink": "https://www.ackodev.com/articles/general-insurance/"
+    }
+  ],
+  "resourceheadingsdata": [
+    {
+      "visibleText": "All Resources"
+    },
+    {
+      "visibleText": "Popular guides"
+    },
+    {
+      "visibleText": "Popular articles"
+    },
+    {
+      "visibleText": "Popular ebooks"
+    }
+  ],
+  "guideheadingsdata": [
+    {
+      "visibleText": "Popular"
+    },
+    {
+      "visibleText": "All"
+    }
+  ],
+  "articleheadingsdata": [
+    {
+      "visibleText": "Popular"
+    },
+    {
+      "visibleText": "All"
+    }
+  ],
+  "ebookheadingsdata": [
+    {
+      "visibleText": "Popular"
+    },
+    {
+      "visibleText": "All"
+    }
+  ],
+  "articletopicsdata": [
+    "https://www.ackodev.com/resources/holidays/",
+    "https://www.ackodev.com/resources/aadhaar/",
+    "https://www.ackodev.com/resources/road-tax/",
+    "https://www.ackodev.com/resources/travel-tips/",
+    "https://www.ackodev.com/resources/visa/",
+    "https://www.ackodev.com/resources/"
+  ],
+  "articletopicsuidata": [
+    {
+      "visibleText": "Holidays"
+    },
+    {
+      "visibleText": "Aadhaar"
+    },
+    {
+      "visibleText": "Road Tax"
+    },
+    {
+      "visibleText": "Travel Tips"
+    },
+    {
+      "visibleText": "Visa"
+    },
+    {
+      "visibleText": "All Topics"
+    }
+  ],
+  "logoutdata": [
+    {
+      "visibleText": "Logout",
+      "redirectionLink": "https://www.ackodev.com/"
+    }
+  ],
+
+
+  "ProductsFooterLinks": ["https://www.ackodev.com/car-insurance/","https://www.ackodev.com/third-party-car-insurance/","https://www.ackodev.com/two-wheeler-insurance/","https://www.ackodev.com/third-party-bike-insurance/","https://www.ackodev.com/motor-insurance/","https://www.ackodev.com/health-insurance/",
+    "https://www.ackodev.com/arogya-sanjeevani-health-insurance/","https://www.ackodev.com/group-health-insurance/"],
+  "CompanyFooterLinks": ["https://www.ackodev.com/about-us/","https://www.ackodev.com/board-of-directors/", "https://acko.skillate.com/","https://www.ackodev.com/media-kit/","https://www.ackodev.com/resources/","https://www.ackodev.com/articles/","https://www.ackodev.com/ackology/","https://www.ackodev.com/partnerships","https://www.ackodev.com/sitemap/"],
+  "LegalFooterLinks": ["https://www.ackodev.com/wp-content/uploads/2018/02/Whistleblower-policy.pdf","https://www.ackodev.com/public-disclosure/","https://www.ackodev.com/financials-disclosures/","https://www.ackodev.com/privacy-policy/","https://www.ackodev.com/terms-and-conditions/","https://www.ackodev.com/wp-content/uploads/2018/07/policy-on-stewardship-code.pdf","https://www.ackodev.com/disclaimer/","https://www.ackodev.com/wp-content/uploads/2020/06/anti-fraud-policy.pdf","https://www.ackodev.com/wp-content/uploads/2020/10/acko-health-underwriting-philosophy.pdf"],
+  "SupportFooterLinks": ["https://www.ackodev.com/contact-us/","https://www.ackodev.com/customer-service/","https://www.ackodev.com/cancellation-and-refund-policy/","https://www.ackodev.com/download/","https://www.ackodev.com/unclaimed-amount.pdf","https://irdai.gov.in/","https://www.ackodev.com/commercial-insurance/"],
+  "CarInsuranceFooterLinks":["https://www.ackodev.com/car-insurance/premium-calculator/","https://www.ackodev.com/car-insurance/compare/","https://www.ackodev.com/car-insurance/claims/","https://www.ackodev.com/what-is-idv-in-car-insurance/","https://www.ackodev.com/car-insurance/zero-depreciation/","https://www.ackodev.com/car-insurance/for-new-cars/","https://www.ackodev.com/car-insurance/electric-car-insurance/","https://www.ackodev.com/car-insurance/renew-expired-car-insurance/","https://www.ackodev.com/car-insurance/old-car-insurance/","https://www.ackodev.com/articles/car-insurance/","https://www.ackodev.com/guides/car-insurance/"],
+  "BikeinsuranceFooterLinks":["https://www.ackodev.com/two-wheeler-insurance/premium-calculator/","https://www.ackodev.com/two-wheeler-insurance/compare/","https://www.ackodev.com/two-wheeler-insurance/claims/","https://www.ackodev.com/two-wheeler-insurance/idv-in-bike-insurance/","https://www.ackodev.com/two-wheeler-insurance/standalone-own-damage-insurance/","https://www.ackodev.com/two-wheeler-insurance/for-new-bikes/","https://www.ackodev.com/scooter-insurance/","https://www.ackodev.com/old-bike-insurance/","https://www.ackodev.com/two-wheeler-insurance/electric-bike-insurance/","https://www.ackodev.com/articles/two-wheeler-insurance/","https://www.ackodev.com/guides/two-wheeler-insurance/"],
+  "HealthinsuranceFooterLinks": ["https://www.ackodev.com/health-insurance/premium-calculator/","https://www.ackodev.com/health-insurance/compare/","https://www.ackodev.com/health-insurance/claim/","https://www.ackodev.com/health-insurance/cashless/","https://www.ackodev.com/health-insurance/renewal/","https://www.ackodev.com/health-insurance/individual-health-insurance/","https://www.ackodev.com/health-insurance/covid-19-insurance/","https://www.ackodev.com/health-insurance/corona-kavach-policy/","https://www.ackodev.com/health-insurance/one-crore-sum-insured/","https://www.ackodev.com/articles/health-insurance/","https://www.ackodev.com/guides/health-insurance/"],
+  "ExplorecarinsuranceFooterLinks": ["https://www.ackodev.com/car-insurance/own-damage-insurance/","https://www.ackodev.com/car-insurance/for-suv/","https://www.ackodev.com/car-insurance/add-ons/","https://www.ackodev.com/car-insurance/car-theft-insurance-claim/","https://www.ackodev.com/garages/","https://www.ackodev.com/car-insurance/tyre-protection-insurance/","https://www.ackodev.com/commercial-vehicle-insurance/","https://www.ackodev.com/car-insurance/claim-settlement-ratio/","https://www.ackodev.com/car-insurance/bangalore/","https://www.ackodev.com/car-insurance/hyderabad/","https://www.ackodev.com/car-insurance/chennai/"],
+  "ExplorebikeinsuranceFooterLinks": ["https://www.ackodev.com/two-wheeler-insurance/claim-settlement-ratio/","https://www.ackodev.com/two-wheeler-insurance/third-party-vs-comprehensive/","https://www.ackodev.com/two-wheeler-insurance/no-claim-bonus-in-bike-insurance/","https://www.ackodev.com/two-wheeler-insurance/what-are-first-second-third-party/","https://www.ackodev.com/two-wheeler-insurance/personal-accident-cover-in-bike-insurance/","https://www.acko.com/two-wheeler-insurance/renew-expired-bike-insurance-online/","https://www.ackodev.com/two-wheeler-insurance/total-loss-bike-insurance-claim/","https://www.ackodev.com/two-wheeler-insurance/insurance-for-rental-bikes/","https://www.ackodev.com/duplicate-bike-insurance-copy-online-steps/"],
+  "ExplorehealthinsuranceFooterLinks": ["https://www.ackodev.com/health-insurance/waiting-period/","https://www.ackodev.com/health-insurance/reimbursement/","https://www.ackodev.com/health-insurance/for-women/","https://www.ackodev.com/health-insurance/for-parents/","https://www.ackodev.com/health-insurance/children-health-insurance/","https://www.ackodev.com/health-insurance/senior-citizens/","https://www.ackodev.com/health-insurance/family-health-insurance-plan/","https://www.ackodev.com/health-insurance/types-of-health-insurance/","https://www.ackodev.com/health-insurance/portability/","https://www.ackodev.com/health-insurance/preventive-health-check-up/"],
+  "ExploregrouphealthinsuranceFooterLinks": ["https://www.ackodev.com/corporate-health-insurance/","https://www.ackodev.com/group-health-insurance/add-ons/","https://www.ackodev.com/group-health-insurance/maternity-cover/","https://www.ackodev.com/group-health-insurance/daily-hospital-cash-benefit/","https://www.ackodev.com/group-health-insurance/pre-existing-diseases/","https://www.ackodev.com/group-health-insurance/tax-benefits-for-employees-and-employers/","https://www.ackodev.com/group-health-insurance/corporate-health-insurance-when-changing-jobs/","https://www.ackodev.com/group-health-insurance/eligibility/","https://www.ackodev.com/group-health-insurance/how-are-group-health-insurance-premiums-calculated/","https://www.ackodev.com/group-health-insurance/for-startup/"],
+  "ExploremoreFooterLinks": ["https://ackodrive.com/rto/","https://www.ackodev.com/traffic-rules/","https://www.ackodev.com/traffic-rules/how-to-get-puc-certificate/","https://ackodrive.com/rto/vehicle-fitness-certificate/","https://www.ackodev.com/rto/new-vehicle-registration-process/","https://www.ackodev.com/rto/how-to-check-vehicle-owner-details-by-number-plate/","https://www.ackodev.com/claim-settlement-ratio/","https://www.ackodev.com/articles/general-info/types-of-insurance/"],
+  "AppStoredownloadlink": ["https://apps.apple.com/"],
+  "GooglePlaydownloadlink": ["https://play.google.com"],
+  "socialsFooterLinks": ["https://www.facebook.com/ackoindia/","https://www.instagram.com/ackoindia/","https://www.linkedin.com/company/acko/?original_referer=https%3A%2F%2Fwww.ackodev.com%2F","https://twitter.com/AckoIndia","https://www.youtube.com/channel/UCn1gqDU9TqbR8u6_10S0RJA"],
+  "electronicsLinks": [
+    {
+      "visibleText": "Before Purchasing a Plan",
+      "redirectionLink": "https://www.ackodev.com/help/electronics/before-purchasing-a-plan"
+    },
+    {
+      "visibleText": "After Plan Purchase",
+      "redirectionLink": "https://www.ackodev.com/help/electronics/after-plan-purchase"
+    },
+    {
+      "visibleText": "Raise a Repair Request",
+      "redirectionLink": "https://www.ackodev.com/help/electronics/raise-a-repair-request"
+    },
+    {
+      "visibleText": "Modes of Settlement",
+      "redirectionLink": "https://www.ackodev.com/help/electronics/modes-of-settlement?tab=mobile-phone&option=cashless-repair"
+    },
+    {
+      "visibleText": "Tracking Repair & Payout Status",
+      "redirectionLink": "https://www.ackodev.com/help/electronics/tracking-repair-and-payout-status"
+    }
+  ]
+
+
+}

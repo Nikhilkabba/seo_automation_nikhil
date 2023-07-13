@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-08-26T05:21:09Z" name="Default suite" finished-at="2021-08-26T05:21:17Z" duration-ms="7640">
+    <groups>
+    </groups>
+    <test started-at="2021-08-26T05:21:09Z" name="Default test" finished-at="2021-08-26T05:21:17Z" duration-ms="7640">
+      <class name="testcases.Flow_01_Insure_FreshCar">
+        <test-method is-config="true" signature="classPrerequisite()[pri:0, instance:testcases.Flow_01_Insure_FreshCar@4fa06f52]" started-at="2021-08-26T10:51:09Z" name="classPrerequisite" finished-at="2021-08-26T10:51:09Z" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classPrerequisite -->
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:testcases.Flow_01_Insure_FreshCar@4fa06f52]" started-at="2021-08-26T10:51:09Z" name="setup" finished-at="2021-08-26T10:51:13Z" duration-ms="3602" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6d303498]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC_01__Insured_An_Private_Fresh_car(org.testng.ITestContext)[pri:1, instance:testcases.Flow_01_Insure_FreshCar@4fa06f52]" started-at="2021-08-26T10:51:13Z" name="TC_01__Insured_An_Private_Fresh_car" description="Insured an private fresh car" finished-at="2021-08-26T10:51:17Z" duration-ms="4009" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6d303498]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01__Insured_An_Private_Fresh_car -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:testcases.Flow_01_Insure_FreshCar@4fa06f52]" started-at="2021-08-26T10:51:17Z" name="cleanUp" finished-at="2021-08-26T10:51:17Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- testcases.Flow_01_Insure_FreshCar -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

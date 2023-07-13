@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Elements>
+    <Element name="phoneNumberInput">
+        <param type="XPATH"
+               value="//input[@type='text']"/>
+    </Element>
+    '
+    <Element name="getOTPTextBox">
+        <param type="XPATH"
+               value="//button[text()='Log in']"/>
+    </Element>
+
+    <Element name="otpBox">
+        <param type="XPATH"
+               value="//input[##index##]"/>
+    </Element>
+</Elements>

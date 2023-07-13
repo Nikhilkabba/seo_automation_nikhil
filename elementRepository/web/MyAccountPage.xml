@@ -1,0 +1,850 @@
+<Elements>
+    <Element name="carLogoPathhp">
+        <param type="XPATH" value="//div[contains(text(),'Car')]//preceding-sibling::div[1]"/>
+    </Element>
+    <Element name="bikeLogoPathhp">
+        <param type="XPATH" value="//div[contains(text(),'Bike')]//preceding-sibling::div[1]"/>
+    </Element>
+    <Element name="healthLogoPathhp">
+        <param type="XPATH" value="//div[contains(text(),'Health')]//preceding-sibling::div[1]"/>
+    </Element>
+    <Element name="travelLogoPathhp">
+        <param type="XPATH" value="//div[contains(text(),'Travel')]//preceding-sibling::div[1]"/>
+    </Element>
+    <Element name="carTextPathhp">
+        <param type="XPATH" value="//div[contains(text(),'Car')]"/>
+    </Element>
+    <Element name="bikeTextPathhp">
+        <param type="XPATH" value="//div[contains(text(),'Bike')]"/>
+    </Element>
+    <Element name="healthTextPathhp">
+        <param type="XPATH" value="//div[contains(text(),'Health')]"/>
+    </Element>
+    <Element name="travelTextPathhp">
+        <param type="XPATH" value="//div[contains(text(),'Travel')]"/>
+    </Element>
+    <Element name="carMsgPathhp">
+        <param type="XPATH" value="//div[contains(text(),'Car')]//following::p[1]"/>
+    </Element>
+    <Element name="bikeMsgPathhp">
+        <param type="XPATH" value="//div[contains(text(),'Bike')]//following::p[1]"/>
+    </Element>
+    <Element name="healthMsgPathhp">
+        <param type="XPATH" value="//div[contains(text(),'Health')]//following::p[1]"/>
+    </Element>
+    <Element name="travelMsgPathhp">
+        <param type="XPATH" value="//div[contains(text(),'Travel')]//following::p[1]"/>
+    </Element>
+    <Element name="lobjourneyhp">
+        <param type="XPATH" value="//p[contains(text(),'Save upto 70%* on car insurance premium')]//preceding-sibling::div[1]/div[1]/div[{{index}}]"/>
+    </Element>
+    <Element name="carnewhp">
+        <param type="XPATH" value="//p[text()='Looking to insure brand new car?']"/>
+    </Element>
+    <Element name="bikenewhp">
+        <param type="XPATH" value="//p[text()='Looking to insure brand new bike?']"/>
+    </Element>
+    <Element name="carnewverifier">
+        <param type="XPATH" value="//button[contains(text(),'Continue')]"/>
+    </Element>
+    <Element name="bikenewverifier">
+        <param type="XPATH" value="//div[contains(text(),'Enter your bike details')]"/>
+    </Element>
+    <Element name="kkrofficialpartner">
+        <param type="XPATH" value="//h2[contains(text(),'Official partner')]//following::img[@alt='Acko official partner for Kolkata night riders']"/>
+    </Element>
+    <Element name="gtofficialpartner">
+        <param type="XPATH" value="//h2[contains(text(),'Official partner')]//following::img[@alt='Acko official partner for Mumbai Indians']"/>
+    </Element>
+    <Element name="miofficialpartner">
+        <param type="XPATH" value="//h2[contains(text(),'Official partner')]//following::img[@alt='Acko official partner for Gujarat Titans']"/>
+    </Element>
+    <Element name="genericofficialpartner">
+        <param type="XPATH" value="//h2[contains(text(),'Official partner')]//following::img[@alt='{{value}}']"/>
+    </Element>
+    <Element name="genericH2xpath">
+        <param type="XPATH" value="//h2[contains(text(),'{{value}}')]"/>
+    </Element>
+    <Element name="genericH1xpath">
+        <param type="XPATH" value="//h1[contains(text(),'{{value}}')]"/>
+    </Element>
+    <Element name="signupbuttonchallan">
+        <param type="XPATH" value="//h1[contains(text(),'Don’t drive with pending challans')]//following::button[contains(text(),'Sign up now')]"/>
+    </Element>
+    <Element name="generic*xpath">
+        <param type="XPATH" value="//*[contains(text(),'{{value}}')]"/>
+    </Element>
+    <Element name="carplaceholder">
+        <param type="XPATH" value="//input[@id='carNumber']"/>
+    </Element>
+    <Element name="bikeplaceholder">
+        <param type="XPATH" value="//input[@id='bikeNumber']"/>
+    </Element>
+    <Element name="carnodatavalidation">
+        <param type="XPATH" value="//p[contains(text(),'Enter your car number to continue')]"/>
+    </Element>
+    <Element name="bikenodatavalidation">
+        <param type="XPATH" value="//p[contains(text(),'Enter your bike number to continue')]"/>
+    </Element>
+    <Element name="datavalidation">
+        <param type="XPATH" value="//form[1]/div[1]"/>
+    </Element>
+    <Element name="popupvalidation3">
+        <param type="XPATH" value="//div[contains(text(),'{{value}}')]//following::span[1]"/>
+    </Element>
+    <Element name="popupvalidation2">
+        <param type="XPATH" value="//div[contains(text(),'{{value}}')]"/>
+    </Element>
+    <Element name="popupvalidation1">
+        <param type="XPATH" value="//div[1]/div[2]/div[3]/div[1]//span[1]/*[1]"/>
+    </Element>
+    <Element name="spanxpath">
+        <param type="XPATH" value="//span[contains(text(),'{{value}}')]"/>
+    </Element>
+    <Element name="bikeincarlogo">
+        <param type="XPATH" value="//div[@id='__next']/div[2]//div[2]/div[1]/div[1]/span[1]/*[1]"/>
+    </Element>
+    <Element name="bikeincarjourneymsg1">
+        <param type="XPATH" value="//span[contains(text(),'entered a bike registration number')]"/>
+    </Element>
+    <Element name="bikeincarjourneymsg2">
+        <param type="XPATH" value="//div[contains(text(),'Enter a car number to continue')]"/>
+    </Element>
+    <Element name="carinbikejourneymsg1">
+        <param type="XPATH" value="//span[contains(text(),'entered a car registration number')]"/>
+    </Element>
+    <Element name="carinbikejourneymsg2">
+        <param type="XPATH" value="//div[contains(text(),'Enter a bike number to continue')]"/>
+    </Element>
+    <Element name="bikewidgetbutton">
+        <param type="XPATH" value="//div[contains(text(),'Welcome back!')]//following::button[contains(text(),'{{value}}')]"/>
+    </Element>
+    //div[contains(text(),'Enter a car number to continue')]
+    //span[contains(text(),"It appears you've entered a bike registration numb")]
+    //div[6]/div[1]/div[3]//h4[contains(text(),'{{value}}')]
+    <Element name="footerheadings">
+        <param type="XPATH" value="//div[6]/div[1]/div[3]//h4[contains(text(),'{{value}}')]"/>
+    </Element>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <Element name="renewPolicy">
+        <params type="XPATH" value="//p[text()='Renew Now']"/>
+    </Element>
+
+    <Element name="buyNowButton">
+        <params type="XPATH" value="//p[text()='Buy Now']"/>
+    </Element>'
+
+    <Element name="planName">
+        <params type="XPATH" value="//p[contains(text(),'{{registrationNumber}}')]//preceding::p[2]"/>
+    </Element>'
+
+    <Element name="vehicleName">
+        <params type="XPATH" value="//p[contains(text(),'{{registrationNumber}}')]//preceding::p[1]"/>
+    </Element>'
+
+    <Element name="registrationNumber">
+        <params type="XPATH" value="//p[contains(text(),'{{registrationNumber}}')]"/>
+    </Element>'
+
+    <Element name="policyTag">
+        <params type="XPATH" value="//p[contains(text(),'{{registrationNumber}}')]//following::p[1]"/>
+    </Element>'
+
+    <Element name="policyNumber">
+        <params type="XPATH" value="//p[contains(text(),'{{registrationNumber}}')]//following::p[2]"/>
+    </Element>'
+
+    <Element name="getPolicy">
+        <params type="XPATH" value="//p[contains(text(),'{{registrationNumber}}')]//following::p[3]"/>
+    </Element>'
+
+    <Element name="policyDetailsCTA">
+        <params type="XPATH" value="//p[contains(text(),'{{registrationNumber}}')]//following::p[4]"/>
+    </Element>'
+    <!-- Policy Details (if claim) else Claim, edit and more -->
+
+    <Element name="subcardHeading">
+        <params type="XPATH" value="//p[contains(text(),'{{registrationNumber}}')]//following::p[5]"/>
+    </Element>'
+
+    <Element name="subcardCTA">
+        <params type="XPATH" value="//p[contains(text(),'{{registrationNumber}}')]//following::p[7]"/>
+    </Element>'
+
+    <!--    newly added-->
+
+    <Element name="policyCard">
+        <param type="XPATH" value="//p[contains(text(),'{{vehicleOrPlanName}}')]//ancestor::div[5]"/>
+    </Element>
+
+    <Element name="policySubCard">
+        <param type="XPATH" value="//p[contains(text(),'{{vehicleOrPlanName}}')]//ancestor::div[5]//child::p"/>
+    </Element>
+
+    <Element name="profileIcon">
+        <param type="XPATH" value="//p[contains(text(),'{{vehicleOrPlanName}}')]//ancestor::div[5]//child::p"/>
+    </Element>
+
+    <Element name="productCard">
+        <param type="XPATH" value="//a[contains(text(),'Products')]"/>
+    </Element>
+
+    //Car logo
+
+    <Element name="carLogoPath">
+        <param type="XPATH" value="//p[contains(text(),'Car')]//preceding-sibling::span//following::*[name()='path' and @d='M11.9797 21.288H19.3998']"/>
+    </Element>
+
+    //bike logo
+
+
+    <Element name="bikeLogoPath">
+        <param type="XPATH" value="//p[contains(text(),'Bike')]//preceding-sibling::span//following::*[name()='path' and @d='M7.52476 23.9519C9.47143 23.9519 11.0495 22.3738 11.0495 20.4271C11.0495 18.4804 9.47143 16.9023 7.52476 16.9023C5.57809 16.9023 4 18.4804 4 20.4271C4 22.3738 5.57809 23.9519 7.52476 23.9519Z']"/>
+    </Element>
+
+
+    //health logo
+
+    <Element name="healthLogoPath">
+        <param type="XPATH" value="//p[contains(text(),'Bike')]//preceding-sibling::span//following::*[name()='path' and @d='M11.9998 14.668L15.9998 18.668L24.9997 8.64978']"/>
+    </Element>
+
+    //electronics logo
+
+    <Element name="electronicsLogoPath">
+        <param type="XPATH" value="//p[contains(text(),'Bike')]//preceding-sibling::span//following::*[name()='path' and @d='M16.9541 8.82951L20.4489 5.33472']"/>
+    </Element>
+
+
+
+    <Element name="carDivHeading">
+        <param type="XPATH" value="//p[contains(text(),'Car')]"/>
+    </Element>
+
+    <Element name="bikeDivHeading">
+        <param type="XPATH" value="//p[contains(text(),'Bike')]"/>
+    </Element>
+
+    <Element name="healthDivHeading">
+        <param type="XPATH" value="//p[contains(text(),'Health')]"/>
+    </Element>
+
+    <Element name="electronicsDivHeading">
+        <param type="XPATH" value="//p[contains(text(),'Electronics')]"/>
+    </Element>
+
+    <Element name="genericInsurancePagesDivLinks">
+        <param type="XPATH" value="//div[1]/div[2]//p[contains(text(),'{{value}}')]//ancestor::div[2]//child::a"/>
+    </Element>
+
+    <Element name="carInsurancePagesLinks">
+        <param type="XPATH" value="//p[contains(text(),'Car &amp; taxi')]//ancestor::div[2]//a[{{index}}]"/>
+    </Element>
+
+    <Element name="bikeInsurancePagesLinks">
+        <param type="XPATH" value="//p[contains(text(),'Bike')]//ancestor::div[2]//a[{{index}}]"/>
+    </Element>
+
+    <Element name="healthInsurancePagesLinks">
+        <param type="XPATH" value="//p[contains(text(),'Health')]//ancestor::div[2]//a[{{index}}]"/>
+    </Element>
+
+    <Element name="electronicsInsurancePagesLinks">
+        <param type="XPATH" value="//p[contains(text(),'Electronics')]//ancestor::div[2]//a[{{index}}]"/>
+    </Element>
+
+    <Element name="resourceSection">
+        <param type="XPATH" value="//a[contains(text(),'Resources')]"/>
+    </Element>
+
+    <Element name="resourceSectionGenericXpath">
+        <param type="XPATH" value="//p[text()='All Resources']//ancestor::div[1]//a"/>
+    </Element>
+    <Element name="resourceSectionLinks">
+        <param type="XPATH" value="//p[text()='All Resources']//ancestor::div[1]//a[{{index}}]"/>
+    </Element>
+    <Element name="loginSection">
+        <param type="XPATH" value="//*[contains(text(),'Login')]"/>
+    </Element>
+    <Element name="mypolicies">
+        <param type="XPATH" value="//a[contains(text(),'My policies')]"/>
+    </Element>
+
+    <Element name="loginLinks">
+        <param type="XPATH" value="//*[text()='Login']//ancestor::div[2]//div[2]//div[1]//div[{{index}}]//div"/>
+    </Element>
+    <Element name="loginSectionGenericXpath">
+        <param type="XPATH" value="//*[text()='Login']//ancestor::div[2]//div[2]//div[1]//div//div"/>
+    </Element>
+
+    <Element name="helpSection">
+        <param type="XPATH" value="//a[contains(text(),'Help')]"/>
+    </Element>
+
+    <Element name="ackoLogoSection">
+        <param type="XPATH" value="//header/div[1]/div[1]/a[1]/img[1]"/>
+    </Element>
+    <!--    <Element name="ackoLogoSectionout">-->
+    <!--        <param type="XPATH" value="//*[@d='M68.6268 0H13.3733C6.1943 0 0.375 5.8542 0.375 13.0758C0.375 20.2974 6.04319 26.0004 13.2221 26.0004H68.4757C75.6543 26.0004 81.6251 20.2974 81.6251 13.0758C81.6251 5.8542 75.8058 0 68.6268 0Z']"/>-->
+    <!--    </Element>-->
+
+    <Element name="profileLogo">
+        <param type="XPATH" value="//a[text()='Help']//following-sibling::div"/>
+    </Element>
+    <Element name="genericTextElement">
+        <param type="XPATH" value="//p[contains(text(),'{{value}}')]"/>
+    </Element>
+    <Element name="arogyaInputElement">
+        <param type="XPATH" value="//input[@id='mobileNumber']"/>
+    </Element>
+    <Element name="arogyaInputElement2">
+        <param type="XPATH" value="//div[28]//input[@id='mobileNumber']"/>
+    </Element>
+    <Element name="genericSpanElement">
+        <param type="XPATH" value="//span[contains(text(),'{{value}}')]"/>
+    </Element>
+    <Element name="genericAelement">
+        <param type="XPATH" value="//a[contains(text(),'{{value}}')]"/>
+    </Element>
+    <Element name="genericTextElement3">
+        <param type="XPATH" value="//*[contains(text(),'{{value}}')]"/>
+    </Element>
+    <Element name="genericRelement">
+        <param type="XPATH" value="//div[2]//a[contains(text(),'{{value}}')]"/>
+    </Element>
+    <Element name="genericTextElement2">
+        <param type="XPATH" value="//p[text()='{{value}}']"/>
+    </Element>
+    <Element name="login">
+        <param type="XPATH" value="//a[text()='Login']"/>
+    </Element>
+    <Element name="bikebuttons">
+        <param type="XPATH" value="//button[contains(text(),'{{value}}')]"/>
+    </Element>
+    <Element name="placeholder">
+        <param type="XPATH" value="//*[@placeholder='{{value}}']"/>
+    </Element>
+    <!--Resource pages-->
+    <Element name="allresources">
+        <param type="XPATH" value="//p[text()='All Resources']//ancestor::div[1]//a[1]"/>
+    </Element>
+    <Element name="genericexplore">
+        <param type="XPATH" value="//div[contains(text(),'Explore')]"/>
+    </Element>
+    <Element name="explore2">
+        <param type="XPATH" value="//div[2]/div[1+{{index}}]/div[2]//a[1][contains(string(),'Explore')]"/>
+    </Element>
+    <Element name="resourceside">
+        <param type="XPATH" value="//p[contains(text(),'All resources')]//ancestor::div[3]/div[1]"/>
+    </Element>
+    <Element name="guideside">
+        <param type="XPATH" value="//p[contains(text(),'All resources')]//ancestor::div[3]/div[2]"/>
+    </Element>
+    <Element name="articleside">
+        <param type="XPATH" value="//p[contains(text(),'All resources')]//ancestor::div[3]/div[3]"/>
+    </Element>
+    <Element name="ebookside">
+        <param type="XPATH" value="//p[contains(text(),'All resources')]//ancestor::div[3]/div[4]"/>
+    </Element>
+    <Element name="resourcesideimg">
+        <param type="XPATH" value="//p[contains(text(),'All resources')]//ancestor::div[3]/div[1]//img[1]"/>
+    </Element>
+    <Element name="guidesideimg">
+        <param type="XPATH" value="//p[contains(text(),'All resources')]//ancestor::div[3]/div[2]//img[1]"/>
+    </Element>
+    <Element name="articlesideimg">
+        <param type="XPATH" value="//p[contains(text(),'All resources')]//ancestor::div[3]/div[3]//img[1]"/>
+    </Element>
+    <Element name="ebooksideimg">
+        <param type="XPATH" value="//p[contains(text(),'All resources')]//ancestor::div[3]/div[4]//img[1]"/>
+    </Element>
+    <Element name="explore3">
+        <param type="XPATH" value="//p[contains(text(),'All resources')]//ancestor::div[3]/div[1+{{index}}]"/>
+    </Element>
+    <Element name="genericexplore2">
+        <param type="XPATH" value="//p[contains(text(),'All resources')]//ancestor::div[3]/div"/>
+    </Element>
+    <Element name="signuplogin">
+        <param type="XPATH" value="//button[contains(text(),'{{value}}')]"/>
+    </Element>
+    <Element name="genericsubscribenow">
+        <param type="XPATH" value="//div[1]/div[{{index}}]/div[2]/div[1][contains(string(),'Subscribe now')]"/>
+    </Element>
+    <Element name="subscribenow">
+        <param type="XPATH" value="//div[1]/div/div[2]/div[1][contains(string(),'Subscribe now')]"/>
+    </Element>
+    <Element name="subscribenowph1">
+        <param type="XPATH" value="//input[@placeholder='Full Name']"/>
+    </Element>
+    <Element name="subscribenowph2">
+        <param type="XPATH" value="//input[@placeholder='Email Address']"/>
+    </Element>
+    <Element name="subscribenowph">
+        <param type="XPATH" value="//p[text()='{{value}}']"/>
+    </Element>
+    <Element name="subbutton">
+        <param type="XPATH" value="//div[@id='portal']//div[3]"/>
+    </Element>
+    <Element name="explorebutton">
+        <param type="XPATH" value="//a[contains(text(),'Explore ACKO')]"/>
+    </Element>
+    <Element name="subscribenowph3">
+        <param type="XPATH" value="//div[@id='portal']//div[2]/img[1]"/>
+    </Element>
+    <Element name="blogredirections">
+        <param type="XPATH" value="//div[@id='__next']/div[3]//p[text()='{{value}}']"/>
+    </Element>
+    <Element name="sidescroll">
+        <param type="XPATH" value="//body/div[@id='__next']/div[3]/div[1]/div[1]/div[1]/div[3]/span[1]/img[1]"/>
+    </Element>
+    <Element name="test">
+        <param type="XPATH" value="//body/div[@id='__next']/div[2]/div[2]/div[1]/div[1]/div[4]/div[2]/div[1]/a[1]"/>
+    </Element>
+    <Element name="resourcesheadings">
+        <param type="XPATH" value="//h2[contains(text(),'{{value}}')]"/>
+    </Element>
+    <Element name="topics">
+        <param type="XPATH" value="//h2[text()='Topics']"/>
+    </Element>
+    <Element name="topicsdivtable">
+        <param type="XPATH" value="//h2[text()='Topics']//ancestor::div[1]/a"/>
+    </Element>
+    <Element name="topicssingle">
+        <param type="XPATH" value="//h2[text()='Topics']//ancestor::div[1]/a[{{index}}]"/>
+    </Element>
+    <Element name="topicstext">
+        <param type="XPATH" value="//h2[text()='Topics']//ancestor::div[1]//a[contains(text(),'')]"/>
+    </Element>
+    <Element name="topicstextgeneric">
+        <param type="XPATH" value="//h2[text()='Topics']//ancestor::div[1]//*[contains(text(),'{{value}}')]"/>
+    </Element>
+    <Element name="logout">
+        <param type="XPATH" value="//p[contains(text(),'Logout')]"/>
+    </Element>
+    <Element name="plogo">
+        <param type="XPATH" value="//body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]"/>
+    </Element>
+    <Element name="plogoseo">
+        <param type="XPATH" value="//a[text()='Help']//following-sibling::div"/>
+    </Element>
+    <Element name="recentdivtable">
+        <param type="XPATH" value="//div[@class='sc-gAmQfK hSvvVK']"/>
+    </Element>
+    <Element name="recenthrefs">
+        <param type="XPATH" value="//div[4]/div[contains(string(),'Team Acko')]//div[{{index}}]//a[contains(@href,'/')]"/>
+    </Element>
+    <Element name="recentdivtableelements">
+        <param type="XPATH" value="//div[4]/div[contains(string(),'Team Acko')]//a[contains(@href,'/')]"/>
+    </Element>
+    <Element name="recentarticles">
+        <param type="XPATH" value="//div[4]/div[contains(string(),'Recent')]"/>
+    </Element>
+    <Element name="helpheading">
+        <param type="XPATH" value="//p[contains(text(),'How do I download a copy of my car or bike policy?')]"/>
+    </Element>
+    <Element name="singuploginidentifier">
+        <param type="XPATH" value="//div/button[1]"/>
+    </Element>
+    <Element name="recentallarticles">
+        <param type="XPATH" value="//p[contains(text(),'All Articles')]"/>
+    </Element>
+    <Element name="verifier">
+        <param type="XPATH" value="//header//span[1]/span[contains(text(),'Resources')]"/>
+    </Element>
+    <!--footer Xpaths-->
+
+
+    <Element name="ProductsFooterLinks">
+        <param type="XPATH" value="//h4[contains(text(),'Products')]/following-sibling::ul/li[{{index}}]/a"/>
+    </Element>
+
+    <Element name="CompanyFooterLinks">
+        <param type="XPATH" value="//h4[contains(text(),'Company')]/following-sibling::ul/li[{{index}}]/a"/>
+    </Element>
+
+    <Element name="LegalFooterLinks">
+        <param type="XPATH" value="//h4[contains(text(),'Legal')]/following-sibling::ul/li[{{index}}]/a"/>
+    </Element>
+
+    <Element name="SupportFooterLinks">
+        <param type="XPATH" value="//h4[contains(text(),'Support')]/following-sibling::ul/li[{{index}}]/a"/>
+    </Element>
+
+    <Element name="CarinsuranceFooterLinks">
+        <param type="XPATH" value="//h4[contains(text(),'Car Insurance')]/following-sibling::ul/li[{{index}}]/a"/>
+    </Element>
+
+    <Element name="BikeinsuranceFooterLinks">
+        <param type="XPATH" value="//h4[contains(text(),'Bike insurance')]/following-sibling::ul/li[{{index}}]/a"/>
+    </Element>
+    <Element name="GeneralBikeinsuranceFooterLinks">
+        <param type="XPATH" value="//h4[contains(text(),'Bike insurance')]/following-sibling::ul//a"/>
+    </Element>
+    <Element name="HealthinsuranceFooterLinks">
+        <param type="XPATH" value="//h4[contains(text(),'Health insurance')]/following-sibling::ul/li[{{index}}]/a"/>
+    </Element>
+    <Element name="AppStoreverifier">
+        <param type="XPATH" value="//*[contains(text(),'View in Mac App Store')]"/>
+    </Element>
+    <Element name="GooglePlayverifier">
+        <param type="XPATH" value="//span[contains(text(),'ACKO Insurance')]"/>
+    </Element>
+    <Element name="ExplorecarinsuranceFooterLinks">
+        <param type="XPATH" value="//h4[contains(text(),'Explore car insurance')]/following-sibling::ul/li[{{index}}]/a"/>
+    </Element>
+
+    <Element name="ExplorebikeinsuranceFooterLinks">
+        <param type="XPATH" value="//h4[contains(text(),'Explore bike insurance')]/following-sibling::ul/li[{{index}}]/a"/>
+    </Element>
+
+    <Element name="ExplorehealthinsuranceFooterLinks">
+        <param type="XPATH" value="//h4[contains(text(),'Explore health insurance')]/following-sibling::ul/li[{{index}}]/a"/>
+    </Element>
+
+    <Element name="ExploregrouphealthinsuranceFooterLinks">
+        <param type="XPATH" value="//h4[contains(text(),'Explore group health insurance')]/following-sibling::ul/li[{{index}}]/a"/>
+    </Element>
+
+    <Element name="ExploretravelinsuranceFooterLinks">
+        <param type="XPATH" value="//h4[contains(text(),'Explore travel insurance')]/following-sibling::ul/li[{{index}}]/a"/>
+    </Element>
+
+    <Element name="ExplorelifeinsuranceFooterLinks">
+        <param type="XPATH" value="//h4[contains(text(),'Explore life insurance')]/following-sibling::ul/li[{{index}}]/a"/>
+    </Element>
+
+    <Element name="ExploremoreFooterLinks">
+        <param type="XPATH" value="//h4[contains(text(),'Explore more')]/following-sibling::ul/li[{{index}}]/a"/>
+    </Element>
+
+    <Element name="DownloadNowFooterLinks">
+        <param type="XPATH" value="//p[contains(text(),'Download our ACKO app now!')]/following-sibling::div/a[{{index}}]"/>
+    </Element>
+
+    <Element name="GooglePlayDownload">
+        <param type="XPATH" value="//p[contains(text(),'Download our ACKO app now!')]/following-sibling::div/a[1]"/>
+    </Element>
+
+    <Element name="AppStoreDownload">
+        <param type="XPATH" value="//p[contains(text(),'Download our ACKO app now!')]/following-sibling::div/a[2]"/>
+    </Element>
+
+    <Element name="socialsFooterLinks">
+        <param type="XPATH" value="//h4[contains(text(),'ACKO General Insurance Limited')]/following-sibling::div/a[{{index}}]"/>
+    </Element>
+
+    <Element name="ackoResourceSection">
+        <param type="XPATH" value="//a[contains(text(),‘Products’)]"/>
+    </Element>
+
+    <!--   footer Xpath end-->
+    <!--BIKE PAGE Xpaths-->
+    <Element name="bikeplaceholder">
+        <param type="XPATH" value="//input[@placeholder='Enter your bike number']"/>
+    </Element>
+    <Element name="bikeplaceholdergq">
+        <param type="XPATH" value="//div[41]//input[@placeholder='Enter your bike number']"/>
+    </Element>
+    <Element name="insurenow">
+        <param type="XPATH" value="//button[contains(text(),'Insure now')]"/>
+    </Element>
+    <Element name="insurenowgq">
+        <param type="XPATH" value="//div[41]//button[contains(text(),'Insure now')]"/>
+    </Element>
+
+    <Element name="nodatavalidation">
+        <param type="XPATH" value="//p[contains(text(),'Enter your bike number to continue')]"/>
+    </Element>
+    <Element name="wrongdatavalidation">
+        <param type="XPATH" value="//p[contains(text(),'Ensure your bike number is correct')]"/>
+    </Element>
+    <Element name="welcomebacklogin">
+        <param type="XPATH" value="//div[contains(text(),'Welcome back!')]/following-sibling::button[text()='Login']"/>
+    </Element>
+    <Element name="welcomeback">
+        <param type="XPATH" value="//div[contains(text(),'Welcome back!')]"/>
+    </Element>
+    <Element name="loginbutton">
+        <param type="XPATH" value="//button[contains(text(),'Log in')]"/>
+    </Element>
+    <Element name="loginbuttonwelcomeback">
+        <param type="XPATH" value="//div[contains(text(),'Welcome back!')]//following-sibling::button[contains(text(),'Login')]"/>
+    </Element>
+    <Element name="accessbuttonwelcomeback">
+        <param type="XPATH" value="//div[contains(text(),'Welcome back!')]//following-sibling::button[contains(text(),'Access')]"/>
+    </Element>
+    <Element name="getquotegq">
+        <param type="XPATH" value="//div[41]//p[2][contains(text(),'Get a quote')]"/>
+    </Element>
+
+    <!--BIKE PAGE Xpaths end push check-->
+    <!--ELECTRONICS PAGE Xpaths-->
+    <Element name="electronicssearch">
+        <param type="XPATH" value="//div[@id='purple-banner']//a[1]"/>
+    </Element>
+    <Element name="electronicsplaceholder">
+        <param type="XPATH" value="//input[@placeholder='Enter your search terms...']"/>
+    </Element>
+    <Element name="searchresult">
+        <param type="XPATH" value="//p[contains(text(),'Search Results')]"/>
+    </Element>
+    <Element name="pagination2">
+        <param type="XPATH" value="//p[contains(text(),'2')]"/>
+    </Element>
+    <Element name="pagination1">
+        <param type="XPATH" value="//p[contains(text(),'2')]//preceding-sibling::p[1]"/>
+    </Element>
+    <Element name="welcomeback">
+        <param type="XPATH" value="//div[contains(text(),'Welcome back!')]"/>
+    </Element>
+    <Element name="loginbutton">
+        <param type="XPATH" value="//button[contains(text(),'Log in')]"/>
+    </Element>
+    <Element name="before">
+        <param type="XPATH" value="//p[contains(text(),'Before Purchasing a Plan')]"/>
+    </Element>
+    <Element name="after">
+        <param type="XPATH" value="//p[contains(text(),'After Plan Purchase')]"/>
+    </Element>
+    <Element name="raise">
+        <param type="XPATH" value="//p[contains(text(),'Raise a Repair Request')]"/>
+    </Element>
+    <Element name="mode">
+        <param type="XPATH" value="//p[contains(text(),'Modes of Settlement')]"/>
+    </Element>
+    <Element name="tracking">
+        <param type="XPATH" value="//p[contains(text(),'Tracking Repair')]"/>
+    </Element>
+    <Element name="mobile">
+        <param type="XPATH" value="//p[contains(text(),'Mobiles')]"/>
+    </Element>
+    <Element name="appliances">
+        <param type="XPATH" value="//p[contains(text(),'Appliances')]"/>
+    </Element>
+    <Element name="genericHeadingElement">
+        <param type="XPATH" value="//p[contains(text(),'{{value}}')]"/>
+    </Element>
+
+
+    <!--ELECTRONICS PAGE Xpaths end-->
+
+
+
+
+
+    <!-- Car widget Xpaths-->
+    <Element name = "mainInsureNowButton">
+        <param type="XPATH" value="//button[contains(text(),'Insure now')][last()]"/>
+    </Element>
+
+
+    <Element name = "noDataCarValidation">
+        <param type="XPATH" value="//p[contains(text(),'Enter your car number to continue')]"/>
+    </Element>
+
+    <Element name = "maincarInputPlaceholder">
+        <param type="XPATH" value="//input[@id='carNumber'][last()]"/>
+    </Element>
+
+    <Element name = "bikeInCarJourney">
+        <param type="XPATH" value="//span[contains(text(),'entered a bike registration number')]"/>
+    </Element>
+
+    <Element name = "wrongDataCarValidation">
+        <param type="XPATH" value="//p[contains(text(),'Ensure your car number is correct')]"/>
+    </Element>
+
+    <Element name = "maincarGetQuote">
+        <param type="XPATH" value="//button[contains(text(),'Get a quote')]"/>
+    </Element>
+
+    <Element name = "getQuoteWidget">
+        <param type="XPATH" value="//p[contains(text(),'Get Quote')]"/>
+    </Element>
+
+    <Element name = "Widget1">
+        <param type="XPATH" value="//h2[@id='why-do-you-need-car-insurance']"/>
+    </Element>
+
+
+    <Element name = "widgetInsureNowButton">
+        <param type="XPATH" value="//div[48]//button[contains(text(),'Insure now')]"/>
+    </Element>
+
+
+    <Element name = "widgetcarInputPlaceholder">
+        <param type="XPATH" value="//div[48]//input[@placeholder='Enter your car number']"/>
+    </Element>
+
+
+    <Element name = "widgetcarGetQuote">
+        <param type="XPATH" value="//div[48]//p[contains(text(),'Want to insure')]"/>
+    </Element>
+
+
+    <Element name = "alreadyInsuredWithAcko">
+        <param type="XPATH" value="//span[contains(text(),'It seems you’re already insured with ACKO insuranc')]"/>
+    </Element>
+
+
+    <Element name="registrationButton">
+        <param type="XPATH" value="//button/div[contains(text(),'Edit')]"/>
+    </Element>
+
+    <Element name="LoginToKnowMore">
+        <param type="XPATH" value="//button/div[contains(text(),'Login to know more')]"/>
+    </Element>
+
+    <Element name="ViewPolicy">
+        <param type="XPATH" value="//button/div[contains(text(),'View policy')]"/>
+    </Element>
+
+    <!--    car widgets end-->
+
+    <Element name="buyBikeInsurance">
+        <param type="XPATH" value="//button/div[contains(text(),'Buy')]"/>
+    </Element>
+    <Element name="BikeInsurancegetquote">
+        <param type="XPATH" value="//div[@id='__next']/div[41]/div[1]/div[1]"/>
+    </Element>
+
+    <!--    buyBikeInsurance-->
+
+    <!--    //button[contains(text(),"View policy")]-->
+
+    <!--    health start-->
+    <Element name="getyourfamily">
+        <param type="XPATH" value="//div[41]//a[contains(text(),'Find the right plan')]"/>
+    </Element>
+    <Element name="scheduleyourdemo">
+        <param type="XPATH" value="//div[34]//a[contains(text(),'Schedule a Demo')]"/>
+    </Element>
+    <Element name="arogyah6">
+        <param type="XPATH" value="//h6[contains(string(),'Who would you like to insure ?')]"/>
+    </Element>
+    <Element name="genericgqarogya">
+        <param type="XPATH" value="//div[28]//p[contains(text(),'{{value}}')]"/>
+    </Element>
+    <Element name="arogyagqinsure">
+        <param type="XPATH" value="//div[28]//div[contains(text(),'Insure now')]"/>
+    </Element>
+    <!--    health end -->
+
+
+
+
+
+
+
+
+    <!--    header start-->
+    <Element name="headercategory">
+        <param type="XPATH" value="//header//span[@class='categoryInfo']//span[contains(text(),'{{value}}')]"/>
+    </Element>
+    <Element name="genericcategoryheading">
+        <param type="XPATH" value="//div[@class='categoryDetails shouldShowCategoryDetails']//span[contains(text(),'{{value}}')]"/>
+    </Element>
+    <Element name="productscatergorytext">
+        <param type="XPATH" value="//div[contains(text(),'GET COVERED FOR')]//ancestor::div[1]/div[{{index}}]"/>
+    </Element>
+    <Element name="allproductscatergorytext">
+        <param type="XPATH" value="//div[contains(text(),'GET COVERED FOR')]//ancestor::div[1]/div"/>
+    </Element>
+    <!--    <Element name="carcatergorylinks">-->
+    <!--        <param type="XPATH" value="//div[contains(text(),'GET COVERED FOR')]//ancestor::div[1]//span[contains(text(),'Car')]//ancestor::div[1]//a[{{index}}]"/>-->
+    <!--    </Element>-->
+    <!--    <Element name="bikecatergorylinks">-->
+    <!--        <param type="XPATH" value="//div[contains(text(),'GET COVERED FOR')]//ancestor::div[1]//span[contains(text(),'Bike')]//ancestor::div[1]//a[{{index}}]"/>-->
+    <!--    </Element>-->
+    <!--    <Element name="healthcatergorylinks">-->
+    <!--        <param type="XPATH" value="//div[contains(text(),'GET COVERED FOR')]//ancestor::div[1]//span[contains(text(),'Health')]//ancestor::div[1]//a[{{index}}]"/>-->
+    <!--    </Element>-->
+    <!--    <Element name="travelcatergorylinks">-->
+    <!--        <param type="XPATH" value="//div[contains(text(),'GET COVERED FOR')]//ancestor::div[1]//span[contains(text(),'Travel')]//ancestor::div[1]//a[{{index}}]"/>-->
+    <!--    </Element>-->
+    <!--    <Element name="corporatecoveragecatergorylinks">-->
+    <!--        <param type="XPATH" value="//div[contains(text(),'GET COVERED FOR')]//ancestor::div[1]//span[contains(text(),'Corporate coverage')]//ancestor::div[1]//a[{{index}}]"/>-->
+    <!--    </Element>-->
+    <!--    <Element name="electronicscatergorylinks">-->
+    <!--        <param type="XPATH" value="//div[contains(text(),'GET COVERED FOR')]//ancestor::div[1]//span[contains(text(),'Electronics')]//ancestor::div[1]//a[{{index}}]"/>-->
+    <!--    </Element>-->
+    <Element name="Cargenericcatergorylinks">
+        <param type="XPATH" value="//div[contains(text(),'GET COVERED FOR')]//ancestor::div[1]/div[2]//a[contains(text(),'{{value}}')]"/>
+    </Element>
+    <Element name="Bikegenericcatergorylinks">
+        <param type="XPATH" value="//div[contains(text(),'GET COVERED FOR')]//ancestor::div[1]/div[3]//a[contains(text(),'{{value}}')]"/>
+    </Element>
+    <Element name="Healthgenericcatergorylinks">
+        <param type="XPATH" value="//div[contains(text(),'GET COVERED FOR')]//ancestor::div[1]/div[4]//a[contains(text(),'{{value}}')]"/>
+    </Element>
+    <Element name="Travelgenericcatergorylinks">
+        <param type="XPATH" value="//div[contains(text(),'GET COVERED FOR')]//ancestor::div[1]/div[5]//a[contains(text(),'{{value}}')]"/>
+    </Element>
+    <Element name="Corporategenericcatergorylinks">
+        <param type="XPATH" value="//div[contains(text(),'GET COVERED FOR')]//ancestor::div[1]/div[6]//a[contains(text(),'{{value}}')]"/>
+    </Element>
+    <Element name="Electronicsgenericcatergorylinks">
+        <param type="XPATH" value="//div[contains(text(),'GET COVERED FOR')]//ancestor::div[1]/div[7]//a[contains(text(),'{{value}}')]"/>
+    </Element>
+    <Element name="genericcatergorytexts">
+        <param type="XPATH" value="//div[contains(text(),'GET COVERED FOR')]//ancestor::div[1]//span[contains(text(),'{{value}}')]"/>
+    </Element>
+    <Element name="genericcatergorytextsrenewals">
+        <param type="XPATH" value="//div[contains(text(),'RENEW INSURANCE')]//ancestor::div[1]//span[contains(text(),'{{value}}')]"/>
+    </Element>
+    <Element name="Cargenericcatergorylinksrenewals">
+        <param type="XPATH" value="//div[contains(text(),'RENEW INSURANCE')]//ancestor::div[1]/div[2]//a[contains(text(),'{{value}}')]"/>
+    </Element>
+    <Element name="Bikegenericcatergorylinksrenewals">
+        <param type="XPATH" value="//div[contains(text(),'RENEW INSURANCE')]//ancestor::div[1]/div[3]//a[contains(text(),'{{value}}')]"/>
+    </Element>
+    <Element name="Healthgenericcatergorylinksrenewals">
+        <param type="XPATH" value="//div[contains(text(),'RENEW INSURANCE')]//ancestor::div[1]/div[4]//a[contains(text(),'{{value}}')]"/>
+    </Element>
+    <Element name="genericcatergorytextsclaims">
+        <param type="XPATH" value="//div[contains(text(),'FILE OR TRACK CLAIM')]//ancestor::div[1]//span[contains(text(),'{{value}}')]"/>
+    </Element>
+    <Element name="Cargenericcatergorylinksclaims">
+        <param type="XPATH" value="//div[contains(text(),'FILE OR TRACK CLAIM')]//ancestor::div[1]/div[2]//a[contains(text(),'{{value}}')]"/>
+    </Element>
+    <Element name="Bikegenericcatergorylinksclaims">
+        <param type="XPATH" value="//div[contains(text(),'FILE OR TRACK CLAIM')]//ancestor::div[1]/div[3]//a[contains(text(),'{{value}}')]"/>
+    </Element>
+    <Element name="Healthgenericcatergorylinksclaims">
+        <param type="XPATH" value="//div[contains(text(),'FILE OR TRACK CLAIM')]//ancestor::div[1]/div[4]//a[contains(text(),'{{value}}')]"/>
+    </Element>
+    <Element name="genericcatergorytextsresources">
+        <param type="XPATH" value="//div[contains(text(),'EXPLORE')]//ancestor::div[1]//span[contains(text(),'{{value}}')]"/>
+    </Element>
+    <Element name="genericcatergorytextsresources2">
+        <param type="XPATH" value="//div[contains(text(),'HELP CENTER')]//ancestor::div[1]//span[contains(text(),'{{value}}')]"/>
+    </Element>
+
+
+
+
+
+
+
+
+
+    <!--    header end -->
+
+
+
+
+
+</Elements>
+

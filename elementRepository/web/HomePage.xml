@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Elements>
+	<Element name="loginButton">
+		<param type="XPATH"
+			value="//a[text()='Login']" />
+	</Element>'
+</Elements>

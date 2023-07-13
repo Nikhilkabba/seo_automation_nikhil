@@ -1,0 +1,17 @@
+
+.settings/org.eclipse.jdt.core.prefs
+.settings/org.eclipse.core.resources.prefs
+*.class
+.DS_Store
+.DS_Store
+*.class
+*.class
+*.class
+*.class
+.DS_Store
+target/classes/META-INF/MANIFEST.MF
+target/classes/META-INF/maven/Automation/MyAccountAutomation/pom.xml
+.idea/compiler.xml
+.idea/compiler.xml
+.idea/compiler.xml
+/target/

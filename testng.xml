@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SEOAutomation">
+	<listeners>
+		<listener class-name="acko.utilities.ExtentReporterNG" />
+		<listener class-name="acko.utilities.CustomTestNGReporter" />
+	</listeners>
+	
+	<test name="01" preserve-order="true">
+		<classes>
+			<class name="testcases.seo1.TS_01_headertestcases"/>
+			<class name="testcases.seo1.TS_02_resourcetestcases"/>
+		    <class name="testcases.seo1.TS_03_footerTestcases"/>
+			<class name="testcases.seo1.TS_04_bikeseopage"/>
+			<class name="testcases.seo1.TS_05_carseopage"/>
+			<class name="testcases.seo1.TS_06_electronicsseopage"/>
+			<class name="testcases.seo1.TS_07_healthseopage"/>
+		</classes>
+	</test>
+</suite> 
